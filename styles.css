@@ -1,0 +1,149 @@
+:root {
+    --primarycolor: #0361A0;
+}
+
+
+html , body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.main{
+    display: flex;
+}
+
+.white-color{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.drawer{
+    flex: 25%;
+    background-color: var(--primarycolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-top: 20px;
+}
+
+li > a {
+    color: rgb(218, 215, 215);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.main-content{
+    flex: 75%
+}
+
+.heroimage{
+    /* /* height: 100%; */
+    width: 100%; 
+}
+
+.main-description{
+    padding: 30px;
+}
+
+.heading{
+    font-size: 35px;
+    padding-bottom: 30px;
+
+    color: var(--primarycolor);
+}
+
+.description{
+    font-size: 16px;
+}
+
+
+.first-flex{
+    display: flex;
+    margin-top: 20px;
+}
+
+.description-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0px 20px;
+}
+
+.primary-color{
+    color: var(--primarycolor);
+
+}
+
+.button {
+    width: 110px;
+}
+
+.action-button{
+    background-color: var(--primarycolor);
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    width: fit-content;
+}
+
+.main-image{
+    flex: 50%;
+}
+
+.heading-1{
+    font-size: 28px;
+}
+
+.first-gallery{
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.gallery-heading{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: var(--primarycolor);
+    font-weight: 600;
+
+
+}
+
+.flex-image{
+    flex: 1;
+}
+
+.contact{
+    display: flex;
+}
+
+.contact-us{
+    flex: 1;
+}
+
+.contact-description{
+    flex: 1;
+}
+
+.w3-input{margin:8px 0px;display:block;width:100%; padding: 10px 0px;}
+
+.w3-input-area{
+    width: 100%;
+}
+
+.description-contact{
+    margin-left: 20px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
